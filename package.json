@@ -2,6 +2,7 @@
   "name": "react-scaffold",
   "version": "1.0.0",
   "main": "index.js",
+  "proxy": "http://127.0.0.1:8080",
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html",
@@ -12,6 +13,8 @@
     "lint": "eslint \"src/\" --cache --fix --format table"
   },
   "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
     "node-sass": "^4.14.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
